@@ -12,7 +12,7 @@ This repository includes:
 # About ABS
 
 **Anti-lock Braking System (ABS)** is a safety system that prevents wheel lockup under hard braking, ensuring optimal tire–road friction and steering control.  
-It dynamically modulates brake torque based on slip ratio — preventing skidding and reducing stopping distance. :contentReference[oaicite:0]{index=0}
+It dynamically modulates brake torque based on slip ratio — preventing skidding and reducing stopping distance.
 
 ---
 
@@ -86,9 +86,13 @@ Includes a MATLAB script that simulates ABS braking for a real SUV (Tata Sierra)
 Enter vehicle speed in km/h: 80
 
 Initial Vehicle Speed = 22.22 m/s
+
 Initial Wheel Speed = 67.34 rad/s
+
 Estimated Stopping Time ≈ 2.52 sec
+
 Estimated Stopping Distance ≈ 27.97 meters
+
 
 Outputs plots showing realistic ABS behavior.
 
