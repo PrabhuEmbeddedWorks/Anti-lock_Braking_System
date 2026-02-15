@@ -16,15 +16,6 @@ It dynamically modulates brake torque based on slip ratio — preventing skiddin
 
 ---
 
-## 📁 Repository Structure
-
-Anti-lock_Braking_System/
-├── ABS_Arduino_code/ # Arduino ABS with L293D & HC-05 Bluetooth
-├── ABS_Simulink_Modelling/ # MATLAB/Simulink ABS model files
-├── ABS_Tata_Sierra_SUV/ # MATLAB code for Tata Sierra braking case
-└── README.md # Project overview (this file)
-
-
 ---
 
 # 1. Arduino ABS Module
@@ -86,13 +77,9 @@ Includes a MATLAB script that simulates ABS braking for a real SUV (Tata Sierra)
 Enter vehicle speed in km/h: 80
 
 Initial Vehicle Speed = 22.22 m/s
-
 Initial Wheel Speed = 67.34 rad/s
-
 Estimated Stopping Time ≈ 2.52 sec
-
 Estimated Stopping Distance ≈ 27.97 meters
-
 
 Outputs plots showing realistic ABS behavior.
 
