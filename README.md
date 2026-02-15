@@ -16,8 +16,6 @@ It dynamically modulates brake torque based on slip ratio — preventing skiddin
 
 ---
 
----
-
 # 1. Arduino ABS Module
 
 **Folder:** `ABS_Arduino_code/`  
@@ -76,10 +74,10 @@ Includes a MATLAB script that simulates ABS braking for a real SUV (Tata Sierra)
 # Example Outputs
 Enter vehicle speed in km/h: 80
 
-Initial Vehicle Speed = 22.22 m/s
-Initial Wheel Speed = 67.34 rad/s
-Estimated Stopping Time ≈ 2.52 sec
-Estimated Stopping Distance ≈ 27.97 meters
+- Initial Vehicle Speed: 22.22 m/s  
+- Initial Wheel Speed: 67.34 rad/s  
+- Estimated Stopping Time: ≈ 2.52 seconds  
+- Estimated Stopping Distance: ≈ 27.97 meters  
 
 Outputs plots showing realistic ABS behavior.
 
